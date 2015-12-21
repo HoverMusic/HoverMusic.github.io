@@ -16,7 +16,7 @@ $( document ).ready( function(){
             $('#app').empty();
             $('#app').removeClass();
             $('#app').addClass('welcome_scene');
-            $('#title').html('<h2 class="animated fadeIn">mouse event audio</h2>');
+            $('#title').html('<h2 class="animated fadeIn">hover music</h2>');
             app.current_scene.group = 'welcome';
             console.log( app.current_scene.group );
             var welcome_scene_template_source = $( '#welcome-scene-template' ).html();
@@ -173,7 +173,7 @@ $( document ).ready( function(){
 
     $('.black_thing').on( 'click', remove_modal_helper );
     $('#modal_cancel_button').on('click', remove_modal_helper );
-    
+
 
 
 
