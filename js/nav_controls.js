@@ -31,7 +31,7 @@ $( document ).ready( function(){
             $('#app').empty();
             $('#app').removeClass();
             $('#app').addClass('sea_scene');
-            $('#title').html('<h2 class="animated fadeIn">touch the sea</h2>');
+            $('#title').html('<h2 class="animated fadeIn">the sea is deep</h2>');
             app.current_scene.group = 'sea';
             console.log( app.current_scene.group );
             app.audio.sea_scene();
@@ -64,7 +64,7 @@ $( document ).ready( function(){
           case 'sky_nav_link':
             console.log('sky nav link');
             $('body').removeClass();
-            $('#title').html('<h2 class="animated fadeIn">touch the sky</h2>');
+            $('#title').html('<h2 class="animated fadeIn">the sky is wide</h2>');
             $('body').attr('class','sky-bg');
             console.log( app.current_scene.group );
             console.log( app.current_scene.group === 'thick_lines' );
@@ -96,7 +96,7 @@ $( document ).ready( function(){
             // console.log( 'thick_lines' );
             // console.log( app.current_scene.group === 'thick_lines' );
             $('body').removeClass();
-            $('#title').html('<h2 class="animated fadeIn">touch the night</h2>');
+            $('#title').html('<h2 class="animated fadeIn">the night is long</h2>');
             $('body').attr('class','night-bg');
             //Check if the current scene is in the same group as this selected one
             if ( app.current_scene.group === 'thick_lines' ) {
@@ -124,7 +124,7 @@ $( document ).ready( function(){
           // console.log( 'thick_lines' );
           // console.log( app.current_scene.group === 'thick_lines' );
             $('body').removeClass();
-            $('#title').html('<h2 class="animated fadeIn">touch the sun</h2>');
+            $('#title').html('<h2 class="animated fadeIn">the sun shines bright(ly)</h2>');
             $('body').attr('class','suns-bg');
             console.log( app.current_scene.group );
             console.log( app.current_scene.group === 'thick_lines' );
