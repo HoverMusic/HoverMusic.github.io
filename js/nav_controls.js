@@ -124,7 +124,7 @@ $( document ).ready( function(){
           // console.log( 'thick_lines' );
           // console.log( app.current_scene.group === 'thick_lines' );
             $('body').removeClass();
-            $('#title').html('<h2 class="animated fadeIn">the sun shines bright(ly)</h2>');
+            $('#title').html('<h2 class="animated fadeIn">the sun shines bright</h2>');
             $('body').attr('class','suns-bg');
             console.log( app.current_scene.group );
             console.log( app.current_scene.group === 'thick_lines' );
