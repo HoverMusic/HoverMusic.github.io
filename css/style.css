@@ -125,7 +125,7 @@ nav a.nav_link.active_link span {
   display: block;
   margin: 7.5% 15%;
   background: white;
-  height: 60%;
+  height: 70%;
   padding: 5%;
   transition: top .5s, opacity .8s;
   z-index:2000;
